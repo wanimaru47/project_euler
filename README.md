@@ -1,1 +1,3 @@
-# project_euler
+# Project Euler
+
+![](https://projecteuler.net/profile/wanimaru.png)
