@@ -1,0 +1,10 @@
+name: Clear Image Cache
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Clear:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -X PURGE https://camo.githubusercontent.com/b0d92664cb76403a59b362493956a0ecf436f21c087df66cca12571fe6f508fb/68747470733a2f2f70726f6a65637465756c65722e6e65742f70726f66696c652f77616e696d6172752e706e67
