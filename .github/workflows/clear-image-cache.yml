@@ -2,7 +2,7 @@ name: Clear Image Cache
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   Clear:
     runs-on: ubuntu-latest
